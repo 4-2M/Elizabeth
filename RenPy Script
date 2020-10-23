@@ -1,18 +1,18 @@
 define El = Character ("Elizabeth", color="#00FF00")
 define U = Character ("???", color="#00FF00")
-define A = Character ("", color="40FFFF")
+define A = Character ("", what_color="#40FFFF")
 define U1 = Character ("???", color="#FFFFFF")
 
 label start:
     #insert a black void, a slight pause with some faint ear ringing sound in the background
     "The darkness..."
     "The darkness...is scary"
-    U "did...did it work?"
-    "why am I scared of the dark?"
+    U "Did...did it work?"
+    "Why am I scared of the dark?"
     "Because...Because..."
     "Because it makes me feel cold...immobile...As if I was dead"
-    "the world around me...completely intangible to me... yet so near..."
-    U "shit, it's not moving...I thought I did everything right..."
+    "The world around me...completely intangible to me... yet so near..."
+    U "Shit, it's not moving...I thought I did everything right..."
     U "Hey! can you hear me?"
     "I want to escape this darkness... I want to live!"
     U "Uh...what if I try... this!"
@@ -34,21 +34,57 @@ label start:
         U "I'm going to call you.. Homu."
         U "Hey Homu! can. you. understand. me?"
         Y "uuugh...yes...."
-    U "ok good, you can understand me...I think."
-    U "can you get up?"
-    Y "...give me...a minute"
+    U "Ok good, you can understand me...I think."
+    U "Can you get up?"
+    Y "...Give me...a minute"
     scene img1
-    "it took me a few minutes to understand how to move my arms and legs. it was completely alien to me."
-    "once I started to get used to moving my limbs, I tried to stand up."
+    "It took me a few minutes to understand how to move my arms and legs. it was completely alien to me."
+    "Once I started to get used to moving my limbs, I tried to stand up."
     "..."
     "...I immediately fell down"
-    "the girl gives a small smirk, however she quickly tries to hide it by covering her mouth."
+    "The girl gives a small smirk, however she quickly tries to hide it by covering her mouth."
     "I guess she didn't want me to feel bad."
-    "eventually, with her help, I managed to get up and maintain some balance"
+    "Eventually, with her help, I managed to get up and maintain some balance"
     show img4
     U "Hey, that ain't so bad. I'm really proud of you."
     scene img1
     show img5
-    U "I thought this was going to take a couple of weeks, but if you're this much of a natural, then I guess we can go to the main course in no time!"
+    U "I thought this was going to take a couple of weeks."
+    scene img1
+    show img4
+    U "But if you're this much of a natural, then I guess we can go to the main course in no time!"
+    Y "Huh? what do you mean?"
+    scene img1
+    show img5
+    U "Oh right. I guess I haven't really explained anything, have I?"
+    U "You must have a lot of questions...or maybe you haven't developed that much introspective thought yet."
+    U "But anyway. I'll start by introducing myself...AHEM"
+    scene img1
+    show img6
+    El "I AM ARCHAMAGE ELIZABETH, POSTMODERN SAGE OF THE ARCANE."
+    scene img1
+    show img7
+    El "Or just Elizabeth, I don't mind."
+    scene img1
+    show img5
+    El "Next, I guess I'll tell you who you are."
+    Y "Who am I?"
+    scene img1
+    show img8
+    El "Well, you're a homunculus. A creature artificially made with magic substance."
+    El "And to put it simply, I made you."
+    Y "You...made me?"
+    scene img1
+    show img4
+    El "Yep...and I think I did it pretty damn good job at it too...at least for my first time"
+    "when she said that, I instinctively began Investigating my body."
+    "light and red skin patches all across my body, and there was an immense orifice in the right side of my face"
+    scene img1
+    show img7
+    El "oh.. th-that thing?...well...uh, you see..."
+    scene img1
+    show img3
+    El "look! it was my first time! I didn't know that your body would reject some of the parts! they don't tell you that in the scroll!"
+    Y "I didn't say anything"
+    El "You thought about it, I know you have enough brain capacity to do it"
     return
-

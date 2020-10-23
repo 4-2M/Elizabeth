@@ -1,6 +1,6 @@
 define El = Character ("Elizabeth", color="#00FF00")
 define U = Character ("???", color="#00FF00")
-define A = Character ("", color="40FFFF")
+define A = Character (_(""), color="#40FFFF", what_color="#40FFFF")
 define U1 = Character ("???", color="#FFFFFF")
 
 label start:
